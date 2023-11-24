@@ -1,0 +1,8 @@
+.vscode/
+bin/
+obj/
+
+*.dll
+*.exe
+*.pdb
+*.sln
