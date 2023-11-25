@@ -3,6 +3,7 @@ using System.CommandLine.Builder;
 using System.CommandLine.Parsing;
 using WinSys.Commands;
 
+[assembly: System.Runtime.Versioning.SupportedOSPlatform("windows")]
 namespace WinSys;
 
 class Program
