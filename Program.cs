@@ -11,6 +11,7 @@ class Program
     static int Main(string[] args)
     {
         Command root = new("winsys");
+        root.AddCommand(ClipboardCommand.Register());
         root.AddCommand(AboutCommand.Register());
         root.AddCommand(VersionCommand.Register());
 
